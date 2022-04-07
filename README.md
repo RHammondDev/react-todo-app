@@ -6,6 +6,8 @@ This Todo App was developed based upon Ibas Majid's tutorial @ https://ibaslogic
 
 In this application you can perform Create, Read, Update, and Delete operations on Todo list items. You can also edit items in the todo list by double-clicking on them and then press enter when you are finished. This application takes advantage of your browsers localStorage to persist the data in the todo list. 
 
+In the src folder you will find two folders which each contain a copy of the application. The classBased folder holds all the source code for the application build using stateful class components. The functionBased folder holds all the refactored source code for the application but this time using stateless function components. The application currently only uses the function based solution.
+
 This Tutorial was using deprecated React Router 5 code and so I went ahead and refactored the routing code so that it works properly with the current React Router 6 library.
 
 Also adjusted a tiny bit of CSS.
