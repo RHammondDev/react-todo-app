@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
-// eslint-disable-next-line
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 //Components
@@ -10,10 +9,10 @@ import InputTodo from "./InputToDo";
 import About from "../pages/About";
 import NoMatch from "../pages/NoMatch";
 import Navbar from "./Navbar";
+import SinglePage from "../pages/SinglePage";
 
 //Stylesheet
 import "../App.css";
-import SinglePage from "../pages/SinglePage";
 
 const ToDoContainer = () => {
 
@@ -91,7 +90,6 @@ const ToDoContainer = () => {
                 </div>
               </React.Fragment> 
             } >
-
             </Route>
             <Route path="about" element={<About />}/>
             <Route path="about/:slug" element={<SinglePage />} />

@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from "react";
+
+//icon
 import { FaTrash } from "react-icons/fa";
 
 //Import CSS module
@@ -8,7 +10,7 @@ const TodoItem = props => {
 
   useEffect(() => {
     return () => {
-      console.log("Cleaning up...")
+      //console.log("Cleaning up...")
     }
   }, [])
   

@@ -23,7 +23,7 @@ const Navbar = () => {
 
     const handleToggle = () => {
         setNavbarOpen( prev => !prev )
-        //setNavbarOpen(!navbarOpen)  also works.
+        //setNavbarOpen(!navbarOpen) also works.
     }
 
     const closeMenu = () => {
@@ -31,7 +31,6 @@ const Navbar = () => {
     }
 
     return(
-        //<div> Hello @ Navbar</div>
         <nav className="navBar">
             <button onClick={handleToggle}>{navbarOpen ? (<MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />) 
             : (<FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />) }</button>

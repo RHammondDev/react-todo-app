@@ -3,11 +3,6 @@ import React from "react";
 //Import CSS module
 import styles from "./ToDoItem.module.css"
 
-/* function TodoItem(props){
-  return (
-  <li> {props.todo.title}</li>
-  )
-} */
 class TodoItem extends React.Component{
     state = {
       editing: false,
