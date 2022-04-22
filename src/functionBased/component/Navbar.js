@@ -9,7 +9,7 @@ const Navbar = () => {
     const links = [
         {
             id: 1,
-            path: "/",
+            path: "/Projects/todoapp",
             text: "Home",
         },
         {

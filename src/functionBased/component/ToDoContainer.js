@@ -74,7 +74,7 @@ const ToDoContainer = () => {
       <>
         <Navbar />
         <Routes>
-            <Route path="/" element={
+            <Route path="/Projects/todoapp/" element={
                 <React.Fragment>
                 <div className="container">
                     <div className="inner">
